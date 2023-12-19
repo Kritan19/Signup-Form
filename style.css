@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+#left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 40vw;
+}
+#left-side{
+    background-image: url(bg-image.jpg);
+    background-size: 100vh;
+    position: relative;
+}
+.left-title{
+    display: flex;
+    height: 30vh;
+    width: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.left-title img{
+    height: 20vh;
+}
+.left-title h1{
+    font-size: 60px;
+}
+#right-side{
+    border: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    background-color: whitesmoke;
+}
+#right-side p{
+    font-weight: 510;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.row{
+    display: flex;
+    gap:10vw;
+    margin: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+input{
+    height: 20px;
+    width: 250px;
+    padding: 2px 9px;
+}
+input:focus{
+    border: 0px;
+}
+#button-area{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+button{
+    font-weight: bolder;
+    font-size: 15px ;
+    padding: 7px;
+    color: azure;
+    background-color: #596D48;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border: 0px;
+}
+button:hover{
+    background-color: #404d35;
+}
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
