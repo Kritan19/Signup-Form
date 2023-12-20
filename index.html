@@ -40,11 +40,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="column">
+                    <div class="column" id="password">
                         <label for="password">PASSWORD</label>
                         <input type="password" id="password" placeholder="********">
                     </div>
-                    <div class="column">
+                    <div class="column" id="confirm-password">
                         <label for="confirm_password">CONFIRM PASSWORD</label>
                         <input type="password" id="confirm_password" placeholder="********">
                     </div>                    
@@ -52,9 +52,10 @@
             </form>
         </div>        
         <div id="button-area">
-            <button>Create Account</button>
+            <button id="button" onclick="submit()">Create Account</button>
             <div>Already have an account? <a href="#">Log in</a></div>  
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
