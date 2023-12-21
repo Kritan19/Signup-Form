@@ -63,16 +63,13 @@ input{
     height: 20px;
     width: 250px;
     padding: 2px 9px;
+    border-radius: 5px;
 }
 input:focus{
-    border: 5px;
-    border-color: blue;
+    outline: 2px solid blue;
 }
 input:valid{
-    border-color: green;
-}
-input:invalid{
-    border-color: red;
+    outline: 2px solid green;
 }
 #button-area{
     display: flex;
